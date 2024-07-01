@@ -1,0 +1,5 @@
+TOPICS DISCUSSED - DAY 1 - 01072024
+-----------------------------------
+	1. What is Data Base
+	2. What is DBMS
+	3. Types of DBMS
