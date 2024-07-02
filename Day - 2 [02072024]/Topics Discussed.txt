@@ -1,0 +1,8 @@
+TOPICS DISCUSSED - DAY 2 - 02072024
+-----------------------------------
+	1. Installation of MySQL Workbench
+	2. Create Database
+	3. Drop Database
+	4. Use Database
+	5. Introduction to Tables
+	6. Data types - 1
