@@ -1,0 +1,34 @@
+Question 1:
+Story:
+Alice is setting up a database for her new online book store. She needs to create a table to store information about the books, where each book has a unique identifier. Additionally, she wants to ensure that every book entry must have a title and an author, but the description of the book can be optional.
+
+Tasks:
+Write the SQL statement to create the books table with the following columns:
+book_id: an auto-incremented unique identifier
+title: a non-nullable string of up to 100 characters
+author: a non-nullable string of up to 50 characters
+description: a nullable text field
+
+Question 2:
+Story:
+Bob runs a small software development company and maintains a database of employees. Each employee has a unique employee number, and it's important for the payroll department to know if an employee's phone number is missing. Bob wants to create the employees table with an employee number that automatically increments, ensure that the employee's name cannot be NULL, and the phone number can be NULL if it’s not provided.
+
+Tasks:
+Write the SQL statement to create the employees table with the following columns:
+employee_no: an auto-incremented identifier
+name: a non-nullable string of up to 50 characters
+phone_number: a nullable string of up to 15 characters
+
+Question 3:
+Story:
+Carla manages a gym and needs a database to track memberships. She wants to ensure that every member has a unique membership number that auto-increments and their join date must be recorded. She also wants the database to allow some members to have NULL email addresses if they choose not to provide one.
+
+Tasks:
+Write the SQL statement to create the memberships table with the following columns:
+membership_no: an auto-incremented unique identifier
+join_date: a non-nullable date
+email: a nullable string of up to 100 characters
+
+Question 4:
+Story:
+Carla is preparing database for the students of different courses. She has initial table with the name student consists of id (auto increment), name (not null), email (not null) and course (not null). at some particular point  she got confused of managing the complete table, so she decided to separate the tables as cse_students, ece_students and eee_students tables based on the main students table. We have to drag the data from main students table to specified  cse_students, ece_students and eee_students tables with creating id (auto increment), name (not null) and email (not null) for all tables
