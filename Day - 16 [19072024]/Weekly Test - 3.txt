@@ -1,0 +1,19 @@
+1. Assume a table with the name employee consists of Sno, Name, Salary and age. Retrive all the names whose salary is greater than or equals to 50000 and age in between 20 to 30.
+
+2. Assume a table with the name students which consists of Sno, Name, Branch and Age. Retrive all the details whose age is not specified.
+
+3. Create a table with the name Orders which should be consists of Id (Primary key and Auto increment), Product_name should be unique and product_price should be not null 0 as default value. While inserting the data, Table should only accept the records the entered product price should be greater than Rs 1000 and length of the Product_name should be greater than 10.
+
+4. Assume a table with the name student which consists of Sno, Name and email. Retrive all the data whose name ends with Reddy and Naidu Replacing those names which should be in below format. While generating output all the names should be in uppercase and all emails should be in lower case
+	name = "Venkatesh Reddy"
+	renamed = "Venkatesh"
+5. Assume a table with the name employees consisting of sno,email and mobile.
+Select the names from email as shown below who mobile number is in xxx-xxx-xxxx format.
+	email : saivardhan@codegnan.com
+	name : saivardhan
+	
+	mobile : 789-357-0611
+	condition : True
+	
+	mobile : 9902519521
+	condition : False
