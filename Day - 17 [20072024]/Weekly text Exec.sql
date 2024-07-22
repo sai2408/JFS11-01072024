@@ -1,0 +1,47 @@
+-- QUESTION 1
+-- use codegnan;
+-- create table employee5 (
+-- sno int key auto_increment,
+-- name varchar(50),
+-- salary bigint,
+-- age int
+-- );
+-- insert into employee5 values (1,"sai",50000,20),(2,"sai1",60000,17),(3,"sai2",40000,27),(4,"sai3",53000,24);
+-- select name from employee5 where salary >= 50000 and age between 20 and 30;
+-- QUESTION 2
+-- use codegnan;
+-- create table employee6(
+-- sno int key auto_increment,
+-- name varchar(50),
+-- branch varchar(10),
+-- age int
+-- );
+-- insert into employee6(sno,name,branch,age) values(1,"aditya","cse",23),(2,"aditya1","ece",null),(3,"aditya2","eee",24);
+-- select * from employee6
+-- where age is null;
+-- QUESTION 3
+-- CREATE TABLE ORDERS1(
+-- ID INT,
+-- PRODUCT_NAME VARCHAR(100) ,
+-- PRODUCT_PRICE BIGINT,
+-- CHECK (PRODUCT_PRICE >1000) , CHECK (CHAR_LENGTH(PRODUCT_NAME)>=5))
+-- ;
+-- INSERT INTO ORDERS1 VALUES(2,"BRUSH",9000);
+-- QUESTION 4
+-- CREATE TABLE STUDENT10 (
+-- 	SNO INT PRIMARY KEY,
+--     NAME VARCHAR(100),
+--     MAIL VARCHAR(100)
+-- );
+-- INSERT INTO STUDENT10 VALUES (1,"SAI VARDHAN NAIDU","SAI@GAMIL.COM"),(2,"VENKATESH REDDY","VENKY@GAMIL.COM"),(3,"RAJESH","RAJESH@GAMIL.COM");
+-- SELECT sno,upper(replace(replace( name, "REDDY"," " ),"NAIDU"," ")) as renamed, lower (mail) as mail from student10 where name like "%REDDY"or name like "%NAIDU";
+
+-- QUESTION 5
+
+-- CREATE TABLE DETAILS (
+-- 	SNO INT,
+--     EMAIL VARCHAR(100),
+--     MOBILE VARCHAR(40)
+-- );
+-- INSERT INTO DETAILS VALUES (1,"SAI@GMAIL.COM","789-357-0611"),(2,"VARDHAN@GAMIL.COM","1234567890");
+-- SELECT SUBSTRING_INDEX(EMAIL,"@",1) AS NAME FROM DETAILS WHERE MOBILE LIKE "___-___-____";
